@@ -1,0 +1,22 @@
+{
+  "name": "@tiktok-ops/control-plane-admin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "wrangler pages deploy dist"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.0",
+    "wrangler": "^4.8.0"
+  }
+}
